@@ -1,5 +1,5 @@
 # libjsonrpcwebsocketserver
-Qt JSON-RPC library over WebSocket
+Bidirectional Qt JSON-RPC library over WebSocket
 
 # API
 
