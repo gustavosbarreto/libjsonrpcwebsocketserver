@@ -1,6 +1,35 @@
 # libjsonrpcwebsocketserver
 Bidirectional Qt JSON-RPC library over WebSocket
 
+# Installing
+
+You obviously need Qt5 to build the library. There are two ways to install the library, see as follow:
+
+## Installing into system
+
+You can install the library into your linux system running the following:
+
+```shell
+qmake PREFIX=/usr
+make
+make install
+```
+
+If you are using a qmake project add to your project file:
+
+```
+CONFIG += link_pkgconfig
+PKGCONFIG += libjsonrpcwebsocketserver
+```
+
+## Embedding into your project
+
+To embeded the library into your project without installing into the system, add the following to your qmake project file:
+
+```
+include(path/to/libjsonrpcwebsocketserver.pri)
+```
+
 # API
 
 ## JsonRPCWebSocketServer
