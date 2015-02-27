@@ -24,7 +24,7 @@ PKGCONFIG += libjsonrpcwebsocketserver
 
 ## Embedding into your project
 
-To embeded the library into your project without installing into the system, add the following to your qmake project file:
+To embed the library into your project without installing into the system, add the following to your qmake project file:
 
 ```
 include(path/to/libjsonrpcwebsocketserver.pri)
