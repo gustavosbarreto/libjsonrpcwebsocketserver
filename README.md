@@ -83,3 +83,7 @@ JsonRPCWebSocketServer rpc;
 rpc.connect("ws://localhost:80");
 rpc.registerInterface("MyInterface", myInterface);
 ```
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gustavosbarreto/libjsonrpcwebsocketserver/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
